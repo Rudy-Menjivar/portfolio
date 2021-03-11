@@ -5,9 +5,24 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className=
-        "navbar navbar-expand navbar-light bg-light">
-        <div className="navbar-collapse row" id="navbarNav">
+        "navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className=
+          "navbar-collapse row text-white"         id="navbarNav">
           <Header />
+          <ul class=
+            "navbar-nav ml-auto pr-4" 
+            >
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                Portfolio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                About
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
       )
