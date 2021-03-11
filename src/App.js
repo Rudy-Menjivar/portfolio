@@ -1,14 +1,25 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer";
+import AboutMe from "./pages/AboutMe";
+import Portfolio from "./pages/Portfolio";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path={["/", "/about"]}>
+            <AboutMe />
+          </Route>
+          <Route exact path={["/portfolio"]}>
+            <Portfolio />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
