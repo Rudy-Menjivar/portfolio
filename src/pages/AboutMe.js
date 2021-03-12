@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import NavLinks from "../components/NavLinks";
 import Card from "../components/Card";
 
 function AboutMe() {
   return (
     <div>
-      <Navbar />
+      <NavLinks />
       <Card />
     </div>
   );
