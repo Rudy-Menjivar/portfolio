@@ -1,12 +1,12 @@
 import React from "react";
 import NavLinks from "../components/NavLinks";
-import Card from "../components/Card";
+import AboutCard from "../components/AboutCard";
 
 function AboutMe() {
   return (
     <div>
       <NavLinks />
-      <Card />
+      <AboutCard />
     </div>
   );
 };
