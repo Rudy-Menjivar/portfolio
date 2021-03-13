@@ -12,8 +12,8 @@ export default function PortfolioCard({ languages, name, description, githubLink
         Languages: {languages}
       </div>
       <div>
-        <a href={githubLink}>Git</a>
-        <a href={liveSite}>Live Site</a>
+        <a href={githubLink} target="_blank" rel="noreferrer">Git</a>
+        <a href={liveSite} target="_blank" rel="noreferrer">Live Site</a>
       </div>
     </Card>
   )
