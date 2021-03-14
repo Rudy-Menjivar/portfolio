@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
@@ -9,17 +9,9 @@ function App() {
   return (
     <Router>
       <div>
-        <Switch>
-          <Route exact path={["/"]}>
-            <AboutMe />
-          </Route>
-          <Route exact path={["/about"]}>
-            <AboutMe />
-          </Route>
-          <Route exact path={["/portfolio"]}>
-            <Portfolio />
-          </Route>
-        </Switch>
+        <Route exact path="/" component={AboutMe} />
+        <Route exact path="/about" component={AboutMe} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Footer />
       </div>
     </Router>
