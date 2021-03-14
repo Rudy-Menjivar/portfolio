@@ -8,8 +8,10 @@ function NavLinks() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-          <Nav.Link eventKey={2} href="/about">
+          <Nav.Link href="/portfolio">
+            Portfolio
+          </Nav.Link>
+          <Nav.Link href="/">
             About
           </Nav.Link>
         </Nav>
