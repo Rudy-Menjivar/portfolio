@@ -10,12 +10,12 @@ function NavLinks() {
       <div>
         <ul className="nav nav-tabs">
           <li className="nav-item">
-            <Link to="/about" className={location.pathname === "/about" ? "nav-link" : "nav-link"}>
+            <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link" : "nav-link"}>
+            <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
               Portfolio
             </Link>
           </li>
