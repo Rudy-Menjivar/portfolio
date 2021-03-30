@@ -4,12 +4,8 @@ My portfolio design ensures that web applications will render correctly on a var
 
 ## Content
 
-* <a href="https://optimistic-leavitt-ed7f86.netlify.app" target="_blank" rel="noreferrer">
-    Deployed Site (Netlify)
-  </a>
-
 * <a href="https://rudy-menjivar.github.io/portfolio/" target="_blank" rel="noreferrer">
-    Deployed Site (GitHub Pages)
+    Deployed Site
   </a>
 
 ### Technologies Used
