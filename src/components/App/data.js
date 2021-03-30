@@ -23,21 +23,21 @@ const ProjData = [
   {
     name: "git-shopping",
     description: "Git-Shopping is a team project involving the deployment of a fictitious E-commerce site. The site is hosted thru Heroku and uses MySQL as its database.",
-    languages: "[HTML, CSS, JavaScript, Handlebars, MySQL, passport, Heroku]",
+    languages: "HTML, CSS, JavaScript, Handlebars, MySQL, passport, Heroku",
     githubLink: "https://github.com/Rudy-Menjivar/git-shopping",
     liveSite: "https://gentle-cove-47687.herokuapp.com/"
   },
   {
     name: "workout-tracker",
     description: "With Workout Tracker anyone can create and track daily workouts via any web browser. Tracking includes exercise details such as type, weight, sets, reps, and duration. Additionally, cardio exercises can track total distance.",
-    languages: "[HTML, CSS, JavaScript, Express, Mongoose, Heroku]",
+    languages: "HTML, CSS, JavaScript, Express, Mongoose, Heroku",
     githubLink: "https://github.com/Rudy-Menjivar/workout-tracker",
     liveSite: "https://guarded-ocean-13572.herokuapp.com/"
   },
   {
     name: "readme-generator",
     description: "This CLI application creates high-quality README files for any application. This should free the developer to devote more time to work on their project.",
-    languages: "[JavaScript]",
+    languages: "JavaScript",
     githubLink: "https://github.com/Rudy-Menjivar/readme-generator",
     liveSite: ""
   }

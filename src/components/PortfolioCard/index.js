@@ -20,7 +20,7 @@ export default function PortfolioCard({ languages, name, description, githubLink
 }
 
 PortfolioCard.propTypes = {
-  languages: PropTypes.arrayOf(PropTypes.string).isRequired,
+  languages: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   githubLink: PropTypes.string.isRequired,
