@@ -6,7 +6,11 @@ const location = useLocation;
 function NavLinks() {
   return (
     <nav className="navbar">
-      <h1 className="navbar-brand">Rudy Menjivar</h1>
+      <h1 className="navbar-brand">
+        <Link to="/" className={location.pathname === "/"}>
+          Rudy Menjivar
+        </Link>
+      </h1>
       <div>
         <ul className="nav nav-tabs">
           <li className="nav-item">
@@ -15,7 +19,7 @@ function NavLinks() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+            <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
               Portfolio
             </Link>
           </li>
