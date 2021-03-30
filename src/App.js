@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavLinks from "./components/NavLinks"
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
@@ -9,9 +10,10 @@ function App() {
   return (
     <Router>
       <div>
+        <NavLinks />
         <Route exact path="/" component={AboutMe} />
         <Route exact path="/about" component={AboutMe} />
-        <Route exact path="/projects" component={Portfolio} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Footer />
       </div>
     </Router>
