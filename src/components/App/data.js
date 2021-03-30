@@ -1,4 +1,4 @@
-export default [
+const ProjData = [
   {
     name: "e-directory",
     description: "The primary goal of e-directory is to provide quick access to an entire employee directory built with React.",
@@ -42,3 +42,5 @@ export default [
     liveSite: ""
   }
 ];
+
+export default ProjData;
