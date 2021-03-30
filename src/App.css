@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;500;600&display=swap');
+
+:root {
+  --primary-font: rgb(196, 195, 195);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 300;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li {
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-nav > li > a {
+  color: var(--primary-font) !important;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-brand {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 500;
+  color: var(--primary-font) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p-title {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
 }

@@ -6,7 +6,7 @@ import ProjData from "../components/App/data"
 function Portfolio() {
   return (
     <div>
-      <h2 className="text-center mt-5">Portfolio</h2>
+      <h2 className="text-center p-title mt-5">Portfolio</h2>
       <Wrapper>
         {ProjData.map(project =>
         <PortfolioCard
