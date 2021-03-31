@@ -2,6 +2,9 @@
 
 :root {
   --primary-font: rgb(196, 195, 195);
+  --nav-font: rgb(44, 44, 44);
+  --active-nav: rgb(250, 170, 21);
+  --inactive-nav: rgb(255, 255, 255, 0)
 }
 
 body {
@@ -11,18 +14,38 @@ body {
 
 nav ul li {
   text-transform: uppercase;
+  letter-spacing: 0.05rem;
 }
 
 .navbar-nav > li > a {
   color: var(--primary-font) !important;
   font-family: 'Advent Pro', sans-serif;
   font-weight: 300;
+  border-bottom: 0.1875rem solid var(--inactive-nav);
 }
 
-.navbar-brand {
+.navbar-nav > li > a.active, .navbar-nav > li> a.active:focus {
+  border-bottom: 0.1875rem solid var(--active-nav);
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--active-nav);
+}
+
+.navbar-brand, .navbar-brand:active, .navbar-brand:focus {
   font-family: 'Advent Pro', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   color: var(--primary-font) !important;
+  letter-spacing: 0.0775rem;
+  border-bottom: 0.1875rem solid var(--inactive-nav);
+}
+
+.navbar-brand:hover {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 300;
+  color: var(--primary-font) !important;
+  letter-spacing: 0.0775rem;
+  border-bottom: 0.1875rem solid var(--active-nav);
 }
 
 .p-title {
