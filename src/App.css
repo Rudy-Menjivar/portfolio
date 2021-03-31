@@ -48,6 +48,10 @@ nav ul li {
   border-bottom: 0.1875rem solid var(--active-nav);
 }
 
+.fawesomespan {
+  color: var(--primary-font);
+}
+
 .p-title {
   font-family: 'Advent Pro', sans-serif;
   font-weight: 400;
