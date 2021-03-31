@@ -52,6 +52,16 @@ nav ul li {
   color: var(--primary-font);
 }
 
+.project-links {
+  display: flex;
+  align-items: center;
+  margin-left: -10rem;
+}
+
+.link-item {
+  margin-left: 13rem;
+}
+
 .p-title {
   font-family: 'Advent Pro', sans-serif;
   font-weight: 400;
