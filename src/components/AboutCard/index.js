@@ -9,13 +9,10 @@ export default function AboutCard() {
           <div className="card-body">
           <h2 className="card-title">About Me</h2>
           <p>
-              Greetings! I'm currently adding to my coding skills as I'm attending UC Davis. I'm knowledgeable in HTML, CSS, Javascript, jQuery, Node.js, APIs, MySQL, MongoDB and React (to name a few).
+            Hello! My name is Rudy and I'm a Full-Stack Web Developer. I create responsive websites that are also mobile-ready, so they are displayed correctly on computers, tablets and smartphones.
           </p>
           <p>
-              I'll be graduating in the spring of 2021, with enough skills to work as a Full Stack Web Developer.
-          </p>
-          <p>
-              My future plans also include helping small businesses setup their online presence or at the very least, improving it. My ultimate goal is to make a positive impact with every client that I work with, building those relationships to naturally gain referrals to help more clients.
+            I primarily use technologies based on MERN (MongoDB, Express, ReactJS, and NodeJs), so I can build anything from a starter website to a more advanced site that requires a database, or extra features. The first step involves understanding each of my client's needs and business. This not only sets up the right build but also defines the best advertising campaign. Which I can also create with Google Adwords and any social media platform.
           </p>
           </div>
         </div>
