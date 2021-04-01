@@ -11,7 +11,7 @@ const ProjData = [
     description: "Confessions is a social platform that allows users to post and share thoughts anonymously.",
     languages: "HTML, CSS, JavaScript, React",
     githubLink: "https://github.com/Rudy-Menjivar/confessions",
-    liveSite: ""
+    liveSite: "https://app-confessions.herokuapp.com/"
   },
   {
     name: "budget-app",
@@ -39,7 +39,7 @@ const ProjData = [
     description: "This CLI application creates high-quality README files for any application. This should free the developer to devote more time to work on their project.",
     languages: "JavaScript",
     githubLink: "https://github.com/Rudy-Menjivar/readme-generator",
-    liveSite: ""
+    liveSite: "https://github.com/Rudy-Menjivar/readme-generator"
   }
 ];
 
