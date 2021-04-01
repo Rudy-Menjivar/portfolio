@@ -15,14 +15,19 @@ function NavLinks() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-                About
+          <li className="nav-item">
+              <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-                Portfolio
+              <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                About
               </Link>
             </li>
           </ul>
