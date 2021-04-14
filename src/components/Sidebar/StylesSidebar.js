@@ -88,3 +88,23 @@ export const SidebarRoute = styled(LinkRouter)`
     color: #010606;
   }
 `;
+
+export const SidebarBtn = styled(LinkScroll)`
+  border-radius: 50px;
+  background: #ebcc42;
+  white-space: nowrap;
+  padding: 16px 64px;
+  color: #010606;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
+`;
