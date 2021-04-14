@@ -4,11 +4,7 @@
   align-items: center;
   height: 800px;
   padding: 20px 10px 10px;
-};
-
-.a-container div {
-  width: 550px;
-  align-self: self;
+  background-color: rgb(182, 182, 182);
 }
 
 .about-card {
@@ -21,6 +17,8 @@
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 2px 13px rgba(0,0,0,0.2);
+  background-color: var(--nav-bg);
+  color: var(--white-font);
 }
 
 .about-title {
@@ -37,19 +35,4 @@
   transform: scale(1.06);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-}
-
-/* @media screen and (max-width: 360px) {
-  .about-card {
-    width: 250px;
-  }
-
-  .about-title {
-    font-size: 16px;
-  }
-
-  .about-description {
-    font-size: 10px;
-    padding: 5px;
-  };
-} */
+};
