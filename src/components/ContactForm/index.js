@@ -17,10 +17,10 @@ export default function Contact() {
   }
 
   return (
-    <div className="container" id="Contact">
+    <div className="contact-container" id="Contact">
       <form className="contact-form" onSubmit={sendEmail}>
-        <div className="card mx-auto m-3 mb-5">
-          <div className="card-header">
+        <div className="card mx-auto pt-4">
+          <div className="card-details">
             <h2>Contact</h2>
           </div>
           <div className="card-body">
