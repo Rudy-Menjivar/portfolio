@@ -1,7 +1,7 @@
 .card {
     border: (167, 167, 167) solid 0.0625rem;
     margin: 0px 10px 10px;
-    padding: 1rem 0.9rem 1.2rem;
+    padding: 1rem 1rem 1.2rem;
     min-height: 12rem;
     font-family: 'Advent Pro', sans-serif;
     letter-spacing: 0.03rem;
@@ -10,14 +10,23 @@
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     max-width: 550px;
-  };
+    color: var(--white-font);
+    background-color: var(--nav-bg) !important;
+  }
   
   .card-details {
-    border-bottom: gray solid 1px;
-  };
-  
+    border-bottom: var(--orange-yellow) solid 1px;
+  }
+
   .card:hover {
+    background-color: var(--orange-yellow) !important;
+    color: var(--nav-bg);
+    font-weight: 600;
     transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .card:hover .card-details {
+    border-bottom: var(--nav-bg) solid 2px;
+    font-weight: 700;  
   };
