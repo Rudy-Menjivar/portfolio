@@ -1,0 +1,55 @@
+.a-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  padding: 20px 10px 10px;
+};
+
+.a-container div {
+  width: 550px;
+  align-self: self;
+}
+
+.about-card {
+  border: rgb(167, 167, 167) solid 0.0625rem;
+  padding: 1rem 1.2rem;
+  max-width: 550px;
+  font-family: 'Advent Pro', sans-serif;
+  letter-spacing: 0.03rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 2px 13px rgba(0,0,0,0.2);
+}
+
+.about-title {
+  margin-bottom: 1.25rem !important;
+  display: flex;
+  justify-content: center;
+}
+
+.about-description {
+  padding-bottom: .5rem;
+}
+
+.about-card:hover {
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 360px) {
+  .about-card {
+    width: 250px;
+  }
+
+  .about-title {
+    font-size: 16px;
+  }
+
+  .about-description {
+    font-size: 10px;
+    padding: 5px;
+  };
+} */
