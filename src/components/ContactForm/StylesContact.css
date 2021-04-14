@@ -1,21 +1,30 @@
+.contact-container {
+  background-color: var(--light-gray);
+  height: 650px;
+  padding: 40px 10px 10px;
+  align-items: center;
+}
+
 .contact-form {
   border: (167, 167, 167) solid 0.0625rem;
 }
 
 .send-btn {
 border-radius: 50px;
-background: #ebcc42;
+color: var(--white-font);
+background: var(--gun-metal);
 white-space: nowrap;
 padding: 10px 22px;
 font-size: 16px;
+font-weight: 600;
 outline: none;
 border: none;
 cursor: pointer;
-transition: all 0.2s ease-in-out;
+transition: all 0.1s ease-in-out;
 }
 
 .send-btn:hover {
 transition: all 0.2s ease-in-out;
-background: rgb(25, 173, 50);
-color: #f1f7f7;
-}
+background: var(--nav-hover);
+color: var(--nav-bg);
+};
