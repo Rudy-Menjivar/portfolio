@@ -1,7 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-
-import "./ContactForm.css";
+import "./StylesContact.css";
 
 export default function Contact() {
 
@@ -18,7 +17,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="container">
+    <div className="container" id="Contact">
       <form className="contact-form" onSubmit={sendEmail}>
         <div className="card mx-auto m-3 mb-5">
           <div className="card-header">
@@ -42,7 +41,7 @@ export default function Contact() {
               <textarea className="form-control" name="message" />
             </div>
             <div className="form-btn">
-              <input type="submit" value="Send" />
+              <input type="submit" className="send-btn" value="Send" />
             </div>            
           </div>
         </div>
