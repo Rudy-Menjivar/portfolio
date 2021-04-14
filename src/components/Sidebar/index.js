@@ -6,7 +6,7 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
-    SidebarRoute,
+    SidebarBtn,
     SideBtnWrap
 } from "./StylesSidebar";
 
@@ -24,11 +24,14 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="Portfolio" onClick={toggle}>
             Portfolio
           </SidebarLink>
+          <SidebarLink to="Contact" onClick={toggle}>
+            Contact
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="Contact">
-            Contact
-          </SidebarRoute>
+          <SidebarBtn to="social-media" onClick={toggle}>
+          Social Media
+          </SidebarBtn>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
