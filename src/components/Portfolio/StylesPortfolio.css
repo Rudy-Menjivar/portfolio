@@ -4,9 +4,4 @@
   align-items: center;
   justify-content: center;
   background-color: var(--gun-metal);
-}
-
-.p-container div {
-  width: 550px;
-  align-self: self;
 };
