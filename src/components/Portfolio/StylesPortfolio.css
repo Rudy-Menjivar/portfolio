@@ -1,7 +1,8 @@
 .p-container {
-  padding: 40px 10px;
+  height: 1850px;
+  padding: 20px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--gun-metal);
+  background-color: #202C39;
 };
