@@ -3,7 +3,7 @@ import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "var(--nav-bg);" : "var(--nav-bg);")};
+  background: ${({ scrollNav }) => (scrollNav ? "#34495B;" : "#34495B;")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkRouter)`
-  color: var(--white-font);
+  color: rgb(250, 250, 250);
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -57,7 +57,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: var(--white-font);
+    color: rgb(250, 250, 250);
   }
 `;
 
@@ -78,29 +78,29 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
-  color: var(--white-font);;
+  color: rgb(250, 250, 250);
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 16px 1rem 0;
   height: 100%;
   cursor: pointer;
-  border-bottom: 0.1875rem solid var(--nav-bg);
+  border-bottom: 0.1875rem solid #34495B;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: var(--nav-hover);
+    color: #ebcc42;
   }
 
   &.active{
-    border-bottom: 3px solid var(--nav-hover);
+    border-bottom: 3px solid #ebcc42;
   }
 `;
 
 export const NavLinksB = styled(LinkScroll)`
   border-radius: 50px;
   background: #202C39;
-  color: var(--white-font);
+  color: rgb(250, 250, 250);
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 16px;
@@ -111,8 +111,8 @@ export const NavLinksB = styled(LinkScroll)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: var(--nav-hover);
-    color: var(--nav-bg);
+    background: #ebcc42;
+    color: #34495B;
   }
 `;
 
@@ -138,7 +138,7 @@ export const NavBtnLink = styled(LinkRouter)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: var(--white-font);
+    background: rgb(250, 250, 250);
     color: #010606;
   }
 `;
