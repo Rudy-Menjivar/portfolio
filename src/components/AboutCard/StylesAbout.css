@@ -17,8 +17,8 @@
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 2px 13px rgba(0,0,0,0.2);
-  background-color: var(--nav-bg);
-  color: var(--white-font);
+  background-color: #202C39;
+  color: rgb(250, 250, 250);
 }
 
 .about-title {
