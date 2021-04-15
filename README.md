@@ -12,3 +12,5 @@ My portfolio design ensures that web applications will render correctly on a var
 * React
 * React Bootstrap
 * React Router Dom
+* React Scroll
+* Email-Js
