@@ -1,32 +1,56 @@
 .contact-container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 750px;
   background-color: rgb(182, 182, 182);
-  height: 650px;
-  padding: 40px 10px 10px;
 }
 
 .contact-form {
-  border: (167, 167, 167) solid 0.0625rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(182, 182, 182);
+}
+
+.contact-card {
+  border: 2px solid #293c4e;
+  border-radius: 4px;
+  padding: .5rem 1rem;
+  margin: 20px 20px;
+  background-color: #34495B;
+  max-width: 550px;
+  color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 13px black;
+}
+
+.contact-card:hover {
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+};
+
+.contact-details {
+  display: flex;
+  justify-content: center;
 }
 
 .send-btn {
-border-radius: 50px;
-color: rgb(250, 250, 250);
-background: #202C39;
-white-space: nowrap;
-padding: 10px 22px;
-font-size: 16px;
-font-weight: 600;
-outline: none;
-border: none;
-cursor: pointer;
-transition: all 0.1s ease-in-out;
+  border-radius: 50px;
+  color: rgb(250, 250, 250);
+  background: #202C39;
+  white-space: nowrap;
+  padding: 10px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
 
 .send-btn:hover {
-transition: all 0.2s ease-in-out;
-background: #ebcc42;
-color: #34495B;
+  transition: all 0.2s ease-in-out;
+  background: #ebcc42;
+  color: #34495B;
 };
