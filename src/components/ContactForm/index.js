@@ -19,7 +19,7 @@ export default function Contact() {
   return (
     <div className="contact-container" id="Contact">
       <form className="contact-form" onSubmit={sendEmail}>
-        <div className="card mx-auto pt-4">
+        <div className="contact-card mx-auto">
           <div className="card-details">
             <h2>Contact</h2>
           </div>
