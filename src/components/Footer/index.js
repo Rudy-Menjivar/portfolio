@@ -45,8 +45,24 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle id="social-media">Social Media</FooterLinkTitle>
-              <FooterLink to="https://github.com/Rudy-Menjivar" target="_blank" rel="noreferrer">GitHub</FooterLink>
-              <FooterLink to="https://www.linkedin.com/in/rudy-menjivar" target="_blank" rel="noreferrer">LinkedIn</FooterLink>
+              <FooterLink 
+                to="https://github.com/Rudy-Menjivar" 
+                target="_blank" rel="noreferrer"
+              >
+                GitHub
+              </FooterLink>
+              <FooterLink 
+                to="https://www.linkedin.com/in/rudy-menjivar" 
+                target="_blank" rel="noreferrer"
+              >
+                LinkedIn
+              </FooterLink>
+              <FooterLink 
+                to="https://icons8.com/icon/qJHOvbNBOFwt/p" 
+                target="_blank" rel="noreferrer"
+              >
+                P icon by Icons8
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
