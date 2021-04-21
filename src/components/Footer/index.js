@@ -17,6 +17,7 @@ import {
   SocialIconLink,
   ScrollLinks
 } from "./StylesFooter";
+import Resumé from "./Rudy-Menjivar.pdf";
 
 const Footer = () => {
   const toggleHome = () => {
@@ -30,7 +31,12 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Me</FooterLinkTitle>
-              <FooterLink to="/">Resumé</FooterLink>
+              <FooterLink 
+                to={Resumé}
+                target="_blank" rel="noreferrer"
+              >
+                Resumé
+              </FooterLink>
               <ScrollLinks 
                 to="Contact" 
                 smooth={true} 
