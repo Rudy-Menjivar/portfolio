@@ -13,6 +13,7 @@ const Portfolios = () => {
             key={project.name}
             name={project.name}
             description={project.description}
+            image={project.image}
             githubLink={project.githubLink}
             liveSite={project.liveSite}
           />
