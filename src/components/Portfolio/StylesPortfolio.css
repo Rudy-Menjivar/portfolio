@@ -1,5 +1,5 @@
 .p-container {
-  height: 1850px;
+  height: min-content;
   padding: 20px 10px;
   display: flex;
   align-items: center;
@@ -19,4 +19,19 @@
 .card {
   margin: 10px 20px;
   padding: 1rem;
+}
+
+.img-section {
+  max-width: 555px;
+  height: 100%;
+}
+
+.proj-image {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  padding-right: 0;
+}
+
+.lang-section {
+  margin-bottom: 10px;
 };
