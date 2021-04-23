@@ -2,14 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from "../Card";
 
-export default function PortfolioCard({ languages, name, description, githubLink, liveSite }) {
+export default function PortfolioCard({ 
+  name, 
+  description, 
+  image, 
+  languages, 
+  githubLink, 
+  liveSite 
+}) {
   return(
     <Card title={name}>
       <div>
         {description}
       </div>
-      <div>
-        Languages: {languages}
+      <div className="img-section">
+        <img className="proj-image" src={image} alt="project screenshot" />
+      </div>
+      <div className="lang-section">
+        <strong>Languages:</strong> {languages}
       </div>
       <div className="project-links">
         <div className="link-item">
@@ -24,9 +34,10 @@ export default function PortfolioCard({ languages, name, description, githubLink
 }
 
 PortfolioCard.propTypes = {
-  languages: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  image: PropTypes.string,
+  languages: PropTypes.string.isRequired,
   githubLink: PropTypes.string.isRequired,
   liveSite: PropTypes.string.isRequired,
 }
