@@ -6,6 +6,7 @@ export default function PortfolioCard({
   name, 
   description, 
   image, 
+  imgAlt,
   languages, 
   githubLink, 
   liveSite 
@@ -16,7 +17,7 @@ export default function PortfolioCard({
         {description}
       </div>
       <div className="img-section">
-        <img className="proj-image" src={image} alt="project screenshot" />
+        <img className="proj-image" src={image} alt={imgAlt} />
       </div>
       <div className="lang-section">
         <strong>Languages:</strong> {languages}

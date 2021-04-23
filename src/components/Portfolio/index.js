@@ -14,6 +14,7 @@ const Portfolios = () => {
             name={project.name}
             description={project.description}
             image={project.image}
+            imgAlt={project.imgAlt}
             githubLink={project.githubLink}
             liveSite={project.liveSite}
           />
